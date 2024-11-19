@@ -36,3 +36,22 @@ th {
     background-color: rgb(29, 141, 29);
     font-weight: bold;
 }
+.form-container {
+    background-color: #dce6f8;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.btn-success {
+    width: 120px;
+}
+.btn-secondary {
+    width: 120px;
+}
+textarea {
+    resize: none;
+}
+.input-small {
+    width: 80px;
+}

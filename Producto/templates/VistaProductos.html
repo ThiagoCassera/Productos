@@ -104,7 +104,7 @@
             <button type="button" class="btn btn-light" style=" padding: 1px 5px" disabled>Borrar Filtros</button>
         </div>
         
-        <button type="button" class="btn btn-warning"><a href=""></a>Altas</button>    
+        <button type="button" class="btn btn-warning"><a href="FormularioProductos.html"></a>Altas</button>    
     </div>
    
     <button type="button" class="btn btn-warning"><a href=""></a>Altas</button>
@@ -138,12 +138,12 @@
                 <td>{{c.Estado}}</td>
                 <td>{{c.observaciones}}</td>
                 <td>
-                    <a href="" class="btn btn-light btn-sm editar-btn" title="Editar">
+                    <a href="/edicionProducto/{{c.codigo_producto}}"class="btn btn-light btn-sm editar-btn" title="Editar">
                         <i class="fas fa-pencil-alt"></i>
                     </a>
                 </td>
                 <td>
-                    <a href="" class="btn btn-light btn-sm eliminar-btn" title="Eliminar">
+                    <a href="/eliminacionProducto/{{c.codigo_producto}}" class="btn btn-light btn-sm eliminar-btn" title="Eliminar">
                         <i class="fas fa-trash-alt"></i>
                     </a>
                 </td>
